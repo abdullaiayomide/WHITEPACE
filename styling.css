@@ -17,8 +17,9 @@ body {
 }
 
 .working {
-  width: 500px;
-  padding-right: 100px;
+  width: 400px;
+  margin-top: 100px;
+  margin-right: 50px;
 }
 
 .loginbtn {
@@ -52,16 +53,17 @@ body {
   cursor: pointer;
 }
 .getmore {
-  width: 40%;
+  width: 50%;
   color: white;
 }
 
 .project {
-  width: 68%;
+  width: 70%;
   color: white;
 }
 .mainfield {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -139,21 +141,21 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
+  gap: 220px;
 }
+
 .management {
   width: 25%;
 }
 .txtfiles {
   width: 75%;
+  
 }
 .text-project {
   padding-left: 100px;
 }
-.text-work {
-  padding-left: 100px;
-}
 .textshare {
-  width: 75%;
+  width: 89%;
 }
 .background {
   position: absolute;
@@ -348,8 +350,6 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-
-  overflow: visible;
 }
 .txteverywhere {
   text-align: center;
@@ -368,7 +368,7 @@ body {
 .notes {
   text-align: center;
   color: white;
-  width: 110%;
+  width: 105%;
 }
 .picbackground {
   width: 450px;
@@ -507,6 +507,18 @@ body {
   margin-left: 34px;
   margin-bottom: 20px;
 }
+.fatprofile{
+  width: 60px;
+  margin-top: 40px;
+  margin-left: 34px;
+  margin-bottom: 20px;
+}
+.manoprofile{
+  width: 60px;
+  margin-top: 40px;
+  margin-left: 34px;
+  margin-bottom: 20px;
+}
 .shawprfile {
   display: inline-block;
 }
@@ -519,13 +531,13 @@ body {
   margin-left: 34px;
   width: 81%;
 }
-.txt-management{
+.txt-management {
   color: white;
   margin-top: 40px;
   margin-left: 34px;
   width: 81%;
 }
-.txtsolution{
+.txtsolution {
   color: white;
   margin-top: 40px;
   margin-left: 34px;
@@ -535,17 +547,15 @@ body {
   width: 80%;
   color: white;
 }
-.txt-amrica{
+.txt-amrica {
   width: 80%;
-  color:white;
+  color: white;
 }
-.txt-oberon{
-  color:  rgba(4, 56, 115, 1);
-
+.txt-oberon {
+  color: rgba(4, 56, 115, 1);
 }
-.txt-mch{
-  color:  rgba(4, 56, 115, 1);
-
+.txt-mch {
+  color: rgba(4, 56, 115, 1);
 }
 .pfpdiv {
   border: 1px solid rgba(79, 156, 249, 1);
@@ -573,20 +583,120 @@ body {
   margin-top: 80px;
   margin-bottom: 50px;
 }
+.event-div {
+  border: 1px solid rgba(79, 156, 249, 1);
+  width: 73%;
+  height: 29%;
+  border-radius: 8px;
+  background-color: rgb(241, 240, 240);
+}
+.pro-pic {
+  width: 19%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.jessie {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 30%;
+  color: white;
+}
+.next-txt {
+  width: 75%;
+  margin-inline-start: 5%;
+  line-height: 25px;
+  color: white;
+}
+.stars {
+  display: inline;
+  color: yellow;
+}
+.found {
+  margin-inline-start: 5%;
+  color: white;
+}
+
+.india-div {
+  border: 1px solid rgba(79, 156, 249, 1);
+  width: 50%;
+  height: 29%;
+  border-radius: 8px;
+  background-color: rgb(241, 240, 240);
+}
+.boyprofile {
+  width: 19%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.tried-txt {
+  width: 73%;
+  margin-inline-start: 5%;
+  line-height: 25px;
+}
+.own-jessie {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 30%;
+}
+.entity-star {
+  display: inline;
+  color: yellow;
+}
+.found-comp {
+  margin-inline-start: 5%;
+}
+.shot-div {
+  border: 1px solid rgba(79, 156, 249, 1);
+  width: 50%;
+  height: 29%;
+  border-radius: 8px;
+  background-color: rgb(241, 240, 240);
+}
+.intuitive-txt {
+  width: 73%;
+  margin-inline-start: 5%;
+  line-height: 25px;
+  color: white;
+}
+.jess-owner {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 30%;
+  color: white;
+}
+.bold-star {
+  display: inline;
+  color: yellow;
+}
+.xyz-phrase {
+  margin-inline-start: 5%;
+  color: white;
+}
+.profiles-div {
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  display: none;
+}
+.trust-users {
+  text-align: center;
+  display: none;
+}
+
 .slider {
   display: block;
   margin-inline: auto;
   margin-bottom: 100px;
 }
-.sect-9{
+.sect-9 {
   background-color: rgba(4, 56, 115, 1);
 }
-.team{
+.team {
   display: block;
   margin-inline: auto;
 }
-.btn-task{
-    border-radius: 8px;
+.btn-task {
+  border-radius: 8px;
   padding: 16px 30px 16px 30px;
   border-style: none;
   background-color: rgba(79, 156, 249, 1);
@@ -595,130 +705,1451 @@ body {
   margin-top: 15px;
   margin-left: 50px;
 }
-.all-container{
+.all-container {
   display: flex;
   justify-content: center;
   margin-bottom: 200px;
   padding-top: 100px;
-  
-  
 }
-.txttoday{
-  width:80%;
+.txttoday {
+  width: 80%;
   text-align: center;
   color: white;
 }
-.grow{
+.grow {
   padding-right: 40px;
   text-align: center;
   color: white;
 }
-.sales{
+.sales {
   color: white;
   padding-left: 40px;
 }
-.apple-logo{
-  width:40px;
+.apple-logo {
+  width: 40px;
   margin-right: 30px;
   margin-left: 40px;
 }
-.windows-logoimg{
-  width:40px;
+.windows-logoimg {
+  width: 40px;
   margin-right: 30px;
 }
-.androidlogo{
-   width:40px;
+.androidlogo {
+  width: 40px;
 }
-.divfooter{
+.divfooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:100px;
-
+  gap: 100px;
 }
-.today{
-   border-radius: 8px;
+.today {
+  border-radius: 8px;
   padding: 16px 30px 16px 30px;
   border-style: none;
   background-color: rgba(79, 156, 249, 1);
   color: white;
   cursor: pointer;
 }
-.txtnew-ways{
+.txtnew-ways {
   color: white;
-  width:150%;
+  width: 150%;
   line-height: 25px;
   margin-top: -10px;
 }
-.divfooter{
+.divfooter {
   margin-left: 60px;
-  
 }
-.pacelogo{
-  width:24px;
+.pacelogo {
+  width: 24px;
 }
 
-.pacelogo, .txtnew-ways{
-  display:inline-block;
-  
-
-
+.pacelogo,
+.txtnew-ways {
+  display: inline-block;
 }
-.logpo-pace{
+.logpo-pace {
   color: white;
 }
-.product-nav a{
-  color:white;
+.product-nav a {
+  color: white;
   text-decoration: none;
-
 }
-.stories{
-  width:159%;
+.stories {
+  width: 159%;
 }
-.rescource-nav a{
-  color:white;
+.rescource-nav a {
+  color: white;
   text-decoration: none;
-
 }
 
-.guide{
-  width:150%;
+.guide {
+  width: 150%;
 }
 .company-nav a {
-    color:white;
-  text-decoration: none;
-}
-.trytoday{
   color: white;
   text-decoration: none;
 }
-.teamtxt{
+.trytoday {
   color: white;
-  width:67%;
+  text-decoration: none;
 }
-.last-line{
-  width:1150px;
+.teamtxt {
+  color: white;
+  width: 67%;
+}
+.last-line {
+  width: 1150px;
   opacity: 30%;
 }
-.terms-privacy a{
+.terms-privacy a {
   color: white;
   text-decoration: none;
   display: inline-block;
-  
 }
-.english{
+.logo-line {
+  display: none;
+  opacity: 30%;
+}
+.english {
   margin-right: 50px;
   margin-left: 60px;
 }
-.private{
-  margin-right:50px ;
-}
-.secure{
+.private {
   margin-right: 50px;
 }
-.status{
+.secure {
   margin-right: 50px;
 }
-.facebook{
-  margin-left: 430px;
+.status {
+  margin-right: 50px;
+}
+.facebook {
+  margin-left: 400px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.linkedin {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.logos {
+  display: inline;
+  margin-bottom: 50px;
+}
+.tweet {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  body {
+    background: pink;
+  }
+  .division2 {
+    flex-direction: row;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+  body {
+    
+  }
+ .txtfiles{
+  width:81%;
+ }
+ .textshare{
+  width:100%;
+ }
+.txtclipper{
+  width:98%;
+}
+.textdiv{
+  padding-left: 40px;
+}
+.needs{
+  width:70%;
+}
+.pluginstxt{
+  width:92%;
+}
+.divtxt{
+  padding-left:90px ;
+}
+.txtplan{
+  font-size: 50px;
+}
+.textorganized{
+  width: 75%;
+  margin-left: 160px;
+}
+.divide{
+  width: 450px;
+  height: 630px;
+}
+.freediv{
+  margin-left: 80px;
+   height:580px;
+}
+.divein{
+  height:580px;
+}
+.txtmoney{
+  color:rgba(255, 228, 146, 1);
+}
+.picbackground{
+  display: none;
+}
+.txteverywhere{
+  text-align: start;
+  width:50%;
+  padding-top: 70px;
+}
+.notes{
+  width:54%;
+}
+.centerdiv{
+  text-align: start;
+  margin-inline-start: 20px;
+}
+.btntaskey{
+  margin-bottom: 130px;
+  margin-top: 30px;
+}
+.txtdata{
+  width:100%;
+}
+.txtapp{
+  width: 96%;
+}
+.big-logo{
+  margin-left: 30px;
+  width:450PX;
+}
+.datadiv{
+  margin-left: 20PX;
+}
+.apple{
+  margin-left: 40px;
+  padding-right:90px ;
+}
+.microsoft{
+  padding-right: 90px;
+}
+.slack{
+  padding-right: 90px;
+}
+.apps{
+  margin-left: 30px;
+}
+.txtfav{
+  font-size: 50px;
+  width:73%;
+}
+.txtteams{
+  width: 78%;
+  line-height: 24px;
+}
+.profile{
+  width:320px;
+  height: 400px;
+  
+}
+.contain-profile{
+ width:320px;
+  height: 400px;
+}
+.pfpdiv{
+  width:320px;
+  height: 400px;
+}
+.all-profile{
+  margin-inline-start: 15px;
+  gap: 10px;
+}
+.txtcollaboration{
+  width:88%;
+  margin-left: 15px;
+}
+.txt-management{
+   width:88%;
+  
+}
+.txtsolution{
+  width:88%;
+}
+.imgprofile{
+  width:50px;
+  margin-left: 0px;
+  margin-inline-start: 20%;
+  margin-right: 5px;
+
+}
+.shawprfile{
+  display: inline-block;
+}
+.avarterpic{
+  display: inline-block;
+}
+.txttalent{
+  width:80%;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+.secondheader{
+  font-size:22px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.quote{
+  margin-left: 15px;
+}
+.txt-management{
+  margin-left: 15px;
+}
+.fatprofile{
+  width:50px;
+  margin-left: 15px;
+}
+.txt-oberon{
+   font-size:22px;
+  margin-left: 5px;
+   margin-bottom: 5px;
+}
+.txthead{
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 5px;
+}
+.shawprfile{
+  display: inline-block;
+}
+.manoprofile{
+  width:50px;
+  margin-left: 15px;
+}
+.txt-mch{
+  font-size:22px;
+  margin-left: 5px;
+   margin-bottom: 5px;
+}
+.txt-amrica{
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 5px;
+}
+.line{
+  width:290px;
+}
+.whiteline{
+ width:290px;
+}
+.txttoday{
+  font-size: 70px;
+  margin-left: 70px;
+}
+.grow{
+  font-size: 24px;
+}
+.btn-task{
+  margin-left: 250px;
+}
+.sales{
+   font-size: 24px;
+  margin-left: 140px;
+}
+.apple-logo{
+  margin-left: 240px;
+}
+.all-container{
+  margin-bottom: 100px;
+}
+.txtnew-ways{
+  width:190%;
+  margin-right: 30px;
+}
+.stories{
+  width:200%;
+}
+.pacelogo{
+  align-items: center;
+  width:19px
+}
+.logpo-pace{
+  align-items: center;
+}
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+  }
+  .mainfield {
+    flex-direction: column;
+  }
+  .working {
+    width: 370px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+
+  .division {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .management {
+    text-align: center;
+    width: 80%;
+    margin-left: 45px;
+  }
+  .text-project {
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 47px;
+  }
+  .workers-chat {
+    width: 450px;
+  }
+  .txtfiles {
+    width: 75%;
+    margin-left: 60px;
+  }
+  .division2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .work-together {
+    width: 400px;
+    padding-left: 0px;
+    margin-bottom: 80px;
+  }
+  .btnstart {
+    margin-right: 50px;
+  }
+  .work-div {
+    order: 2;
+  }
+  .text-work {
+    order: 1;
+    text-align: center;
+  }
+  .ground-div {
+    position: relative;
+  }
+  .background {
+    position: absolute;
+    top: -100px;
+    left: -110px;
+  }
+  .textshare {
+    width: 67%;
+    padding-left: 140px;
+    line-height: 23px;
+  }
+  .sect-3 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textdiv {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .extension {
+    width: 50%;
+    margin-inline-start: 190px;
+    margin-top: 70px;
+  }
+  .txtclipper {
+    width: 75%;
+    font-size: 16px;
+    padding-left: 90px;
+    line-height: 20px;
+  }
+  .btngo {
+    padding: 18px 35px 18px 35px;
+  }
+
+  .meeting {
+    width: 450px;
+  }
+  .sect4 {
+    flex-direction: column;
+  }
+  .expimg {
+    width: 450px;
+    margin-top: 100px;
+  }
+  .divtxt {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .needs {
+    width: 60%;
+    margin-left: 150px;
+    line-height: 40px;
+  }
+  .pluginstxt {
+    width: 73%;
+    margin-left: 120px;
+    line-height: 18px;
+  }
+  .btnletgo {
+    padding: 18px 35px 18px 35px;
+  }
+  .txtplan {
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+  .textorganized {
+    width: 75%;
+    margin-left: 120px;
+  }
+  .maindiv {
+    overflow-x: auto;
+  }
+
+  .unorderedlist {
+    width: max-content;
+    padding-left: 0px;
+    overflow: hidden;
+    transform: translateX(-75%);
+  }
+  .freediv {
+    width: 200px;
+    padding-right: 15px;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 10px;
+    position: relative;
+  }
+  .ideas {
+    width: max-content;
+  }
+  .free,
+  .funds {
+    transform: translateX(-75%);
+  }
+  .capture {
+    width: max-content;
+    padding: 0px;
+    transform: translateX(-75%);
+  }
+  .btnget {
+    margin-right: 0px;
+    margin-left: 0;
+    width: max-content;
+    transform: translateX(-75%);
+  }
+
+  .statetxt {
+    width: max-content;
+  }
+  .divein {
+    width: 200px;
+    padding-right: 15px;
+    overflow: hidden;
+    margin-right: 0;
+    position: relative;
+  }
+  .divide {
+    width: 420px;
+    min-width: 420px;
+    padding-right: 15px;
+    margin-left: 22px;
+  }
+  .picbackground {
+    width: 350px;
+    margin-left: -100px;
+    margin-top: -155px;
+    position: absolute;
+    height: 700px;
+    display: block;
+  }
+  .centerdiv {
+    text-align: start;
+    padding-right: 0;
+  }
+  .txteverywhere {
+    margin-inline-start: 20px;
+    text-align: start;
+    width: 80%;
+    font-size: 54px;
+    padding-top: 60px;
+  }
+  .notes {
+    margin-inline-start: 20px;
+    width: 70%;
+    line-height: 25px;
+    text-align: start;
+    font-size: 18px;
+  }
+  .btntaskey {
+    padding: 20px 35px 20px 35px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-inline-start: 20px;
+  }
+  .sect-7 {
+    flex-direction: column;
+  }
+  .bigdiv {
+    order: 1;
+  }
+  .datadiv {
+    order: 2;
+    margin: 0px;
+    text-align: center;
+  }
+  .big-logo {
+    margin: 100px 0px 50px 0px;
+    width: 510px;
+  }
+  .txtdata {
+    font-size: 40px;
+    width: 100%;
+  }
+  .txtapp {
+    width: 68%;
+    padding-left: 115px;
+    line-height: 25px;
+  }
+
+  .readmorebtn {
+    margin-bottom: 50px;
+  }
+  .parentcontainer {
+    flex-direction: column;
+  }
+  .apple,
+  .microsoft,
+  .slack,
+  .google {
+    margin-left: 100px;
+  }
+  .allfield {
+    flex-direction: column;
+    height: 1109px;
+  }
+  .apps {
+    width: 63.15%;
+    margin-top: 10%;
+    margin-left: 130px;
+  }
+  .txtdivision {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .txtfav {
+    font-size: 54px;
+    width: 87.79%;
+    margin-left: 25px;
+  }
+  .txtteams {
+    width: 72%;
+    margin-left: 90px;
+  }
+  .btnmore {
+    margin-bottom: 70px;
+  }
+  .vectordesign {
+    position: absolute;
+    rotate: 0px;
+    top: -200px;
+    left: 200;
+    width: 800px;
+    height: 80%;
+  }
+  .txtclient {
+    width: 70%;
+    margin-left: 14%;
+    display: none;
+  }
+  .all-profile {
+    flex-direction: column;
+    display: none;
+  }
+
+  .trust-users {
+    display: block;
+    width: 80%;
+    margin-inline-start: 10%;
+    font-size: 50px;
+    margin-top: 100px;
+  }
+  .profiles-div {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .event-div {
+    width: 43%;
+    min-width: 43%;
+    overflow: hidden;
+    background-color: rgba(79, 156, 249, 1);
+  }
+  .india-div {
+    overflow: hidden;
+    width: 43%;
+    min-width: 43%;
+  }
+  .shot-div {
+    overflow: hidden;
+    width: 43%;
+    min-width: 43%;
+    background-color: rgba(79, 156, 249, 1);
+  }
+
+  .profile {
+    width: 280px;
+    margin-left: 0px;
+  }
+  .line {
+    width: 240px;
+  }
+  .quote {
+    width: 70px;
+    margin-left: 20px;
+  }
+  .txtcollaboration {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .imgprofile {
+    width: 45px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  .secondheader {
+    font-size: 20px;
+    margin-inline-start: 20px;
+  }
+  .txttalent {
+    margin-inline-start: 20px;
+    line-height: 25px;
+  }
+  .contain-profile {
+    width: 280px;
+    margin-left: 0;
+  }
+  .txt-management {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .whiteline {
+    width: 240px;
+  }
+  .txt-oberon {
+    margin-inline-start: 20px;
+    font-size: 20px;
+  }
+  .txthead {
+    margin-inline-start: 20px;
+    line-height: 25px;
+  }
+  .pfpdiv {
+    width: 280px;
+    margin-left: 0;
+  }
+  .txtsolution {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .txt-mch {
+    margin-inline-start: 20px;
+    font-size: 20px;
+  }
+  .txt-amrica {
+    margin-inline-start: 20px;
+    line-height: 25px;
+  }
+  .team {
+    margin-inline-start: 20px;
+  }
+  .grow {
+    padding-right: 0px;
+    text-align: start;
+    width: 100%;
+    line-height: 25px;
+  }
+  .btn-task {
+    margin-left: 0px;
+  }
+  .sales {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .apple-logo {
+    margin-left: 0px;
+  }
+  .txttoday {
+    text-align: start;
+    font-size: 50px;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .divfooter {
+    flex-direction: column;
+    display: block;
+
+    overflow: hidden;
+    margin-left: 0px;
+  }
+  .all-container {
+    margin-bottom: 100px;
+  }
+  .logpo-pace {
+    margin-left: 0px;
+    font-size: 50px;
+  }
+  .pacelogo {
+    width: 5%;
+  }
+  .txtnew-ways {
+    margin-inline-start: 25px;
+    margin-top: 0px;
+    font-size: 0px;
+    line-height: 25px;
+    width: 52%;
+  }
+  .txtnew-ways::before {
+    content: "Whitepace was created for the new ways we live and work. We make beautyfully designed around the world";
+    font-size: 16px;
+  }
+  .logpo-pace {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-inline-start: 25px;
+  }
+  .stories {
+    width: auto;
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .view {
+    color: rgba(255, 228, 146, 1);
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+
+  .hproduct {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .pricing {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .resources {
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .blog {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .guide {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .help-center {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .company-header {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+    margin-top: 70px;
+  }
+  .about-us {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .careers {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+  .media-kit {
+    margin-left: 0px;
+    margin-inline-start: 25px;
+  }
+
+  .third-day {
+    margin-top: 70px;
+    margin-left: 0px;
+    font-size: 30px;
+    margin-inline-start: 40px;
+  }
+  .teamtxt {
+    width: 25%;
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 21px;
+    margin-inline-start: 25px;
+  }
+  .today {
+    margin-left: 0px;
+    padding: 22px 47px 22px 47px;
+    font-size: large;
+    margin-inline-start: 25px;
+  }
+  .terms-privacy {
+    text-align: center;
+  }
+  .last-line {
+    display: none;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  .linediv {
+    margin: 0px;
+  }
+  .english {
+    margin: 100px 0px 0px 0px;
+  }
+  .private {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+  .secure {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+  .status {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+  .copywrite {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+  .facebook {
+    margin-left: 0px;
+  }
+  .logo-line {
+    display: block;
+    width: 650px;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .logos {
+    text-align: start;
+    margin-left: -580px;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: white;
+  }
+  .mainfield {
+    flex-direction: column;
+  }
+  .working {
+    width: 270px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+
+  .division {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .management {
+    text-align: center;
+    width: 80%;
+    margin-left: 0px;
+  }
+  .text-project {
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 47px;
+  }
+  .workers-chat {
+    width: 350px;
+  }
+  .txtfiles {
+    width: 82%;
+    margin-left: 0px;
+  }
+  .division2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .work-together {
+    width: 250px;
+    padding-left: 0px;
+    margin-bottom: 80px;
+  }
+  .btnstart {
+    margin-right: 80px;
+    margin-left: 25px;
+  }
+  .work-div {
+    order: 2;
+  }
+  .text-work {
+    order: 1;
+    text-align: center;
+  }
+  .textshare {
+    width: 67%;
+    padding-left: 50px;
+    line-height: 23px;
+  }
+  .sect-3 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textdiv {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .extension {
+    width: 50%;
+    padding-left: 0px;
+    margin-inline-start: 70px;
+  }
+  .txtclipper {
+    width: 75%;
+    font-size: 0;
+    padding-left: 30px;
+    line-height: 20px;
+  }
+  .txtclipper::before {
+    content: "Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.";
+    font-size: 16px;
+  }
+  .btngo {
+    padding: 18px 35px 18px 35px;
+  }
+
+  .meeting {
+    width: 250px;
+    padding-right: 10px;
+  }
+  .sect4 {
+    flex-direction: column;
+  }
+  .expimg {
+    width: 300px;
+  }
+  .divtxt {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .needs {
+    width: 60%;
+    padding-left: 50px;
+    line-height: 40px;
+    margin-left:0px ;
+  }
+  .pluginstxt {
+    width: 63%;
+    padding-left: 50px;
+    line-height: 18px;
+    margin-left: 0px;
+  }
+  .btnletgo {
+    padding: 18px 35px 18px 35px;
+  }
+  .txtplan {
+    width: 70%;
+    padding-left: 50px;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .textorganized {
+    width: 65%;
+    padding-left: 50px;
+    margin-left: 0px;
+  }
+  .maindiv {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .freediv {
+    display: none;
+  }
+  .divein {
+    display: none;
+  }
+  .divide {
+    width: 270px;
+    min-width: 270px;
+    padding-right: 15px;
+    margin-left: 17px;
+  }
+  .picbackground {
+    display: none;
+  }
+  .centerdiv {
+    text-align: left;
+    padding-right: 0;
+  }
+  .txteverywhere {
+    text-align: left;
+    width: 70%;
+    font-size: 33px;
+    padding-left: 0px;
+    padding-top: 60px;
+  }
+  .notes {
+    text-align: left;
+    width: 70%;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  .btntaskey {
+    margin-left: 15px;
+    padding: 20px 35px 20px 35px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+  .sect-7 {
+    flex-direction: column;
+  }
+  .bigdiv {
+    order: 1;
+  }
+  .datadiv {
+    order: 2;
+    margin: 0px;
+    text-align: center;
+  }
+  .big-logo {
+    margin: 50px 0px 50px 0px;
+    width: 320px;
+  }
+  .txtapp {
+    width: 68%;
+    padding-left: 45px;
+    line-height: 25px;
+  }
+  .readmorebtn {
+    margin-bottom: 50px;
+  }
+  .parentcontainer {
+    flex-direction: column;
+  }
+  .apple,
+  .microsoft,
+  .slack,
+  .google {
+    margin-left: 100px;
+  }
+  .allfield {
+    flex-direction: column;
+  }
+  .apps {
+    width: 270px;
+    margin-top: 5%;
+    margin-left: 0px;
+  }
+  .txtdivision {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .txtfav {
+    width: 80%;
+    margin-left: 25px;
+    font-size: 36px;
+    margin-top: 19%;
+  }
+  .txtteams {
+    width: 72%;
+    margin-left: 40px;
+    line-height: 24px;
+  }
+  .btnmore {
+    margin-bottom: 20px;
+  }
+  .vectordesign {
+    rotate: -2.38deg;
+    width: 1100px;
+    height:800px;
+    top:0;
+    left:0;
+  }
+  .txtclient {
+    display: block;
+    width: 70%;
+    margin-left: 50px;
+  }
+  .all-profile {
+    flex-direction: column;
+    display: block;
+    margin-left: 20px;
+  }
+  .profile {
+    width: 280px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+  }
+  .line {
+    width: 240px;
+  }
+  .quote {
+    width: 70px;
+    margin-left: 20px;
+  }
+  .txtcollaboration {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .profiles-div {
+    display: none;
+  }
+  .trust-users {
+    display: none;
+  }
+  .imgprofile {
+    width: 45px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  .fatprofile{
+    width: 45px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  .manoprofile{
+    width: 45px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  .secondheader {
+    font-size: 20px;
+    margin-inline-start: 20px;
+  }
+  .txttalent {
+    margin-inline-start: 20px;
+    line-height: 25px;
+  }
+  .contain-profile {
+    width: 280px;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  .txt-management {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .whiteline {
+    width: 240px;
+  }
+  .txt-oberon {
+    margin-inline-start: 20px;
+    font-size: 20px;
+  }
+  .txthead {
+    margin-inline-start: 20px;
+    line-height: 25px;
+  }
+  .pfpdiv {
+    width: 280px;
+    margin-left: 0;
+  }
+  .txtsolution {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .txt-mch {
+    margin-inline-start: 20px;
+    font-size: 20px;
+  }
+  .txt-amrica {
+    margin-inline-start: 20px;
+    line-height: 25px;
+  }
+  .team {
+    margin-inline: initial;
+    margin-inline-start: 25px;
+  }
+  .grow {
+    padding-right: 0px;
+    text-align: start;
+    width: 78%;
+    line-height: 25px;
+  }
+  .btn-task {
+    margin-left: 0px;
+  }
+  .sales {
+    padding-left: 0px;
+  }
+  .apple-logo {
+    margin-left: 0px;
+  }
+  .txttoday {
+    text-align: start;
+    font-size: 42px;
+  }
+  .divfooter {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .all-container {
+    margin-bottom: 100px;
+  }
+  .txtnew-ways {
+    text-align: center;
+    margin-left: 0px;
+    font-size: 21px;
+    line-height: 30px;
+    width:100%;
+    margin-top: 20px;
+  }
+  .txtnew-ways::before{
+    display: none;
+  }
+  .logpo-pace {
+    margin-left: 0px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .pacelogo{
+    width:11%;
+  }
+  .product-nav a {
+    text-align: center;
+  }
+  .stories {
+    width: auto;
+    margin-left: -30px;
+    margin-bottom: 0px;
+  }
+  .view {
+    color: rgba(255, 228, 146, 1);
+    margin-left: -30px;
+  }
+  .hproduct {
+    margin-left: -30px;
+  }
+  .pricing {
+    margin-left: -30px;
+  }
+  .rescource-nav a {
+    text-align: center;
+  }
+  .resources {
+    margin-left: -30px;
+  }
+  .blog {
+    margin-left: -30px;
+  }
+  .guide {
+    margin-left: -30px;
+  }
+  .help-center {
+    margin-left: -30px;
+  }
+  .company-header {
+    margin-left: -40px;
+  }
+  .about-us {
+    margin-left: -30px;
+  }
+  .careers {
+    margin-left: -30px;
+  }
+  .media-kit {
+    margin-left: -30px;
+  }
+  .today-div {
+    text-align: center;
+  }
+  .third-day {
+    margin-left: -25px;
+    font-size: 30px;
+  }
+  .teamtxt {
+    width: 77%;
+    margin-left: 25px;
+    line-height: 30px;
+    font-size: 21px;
+  }
+  .today {
+    margin-left: -15px;
+    padding: 22px 47px 22px 47px;
+    font-size: large;
+  }
+  .last-line {
+    display: none;
+  }
+  .linediv {
+    flex-direction: column;
+  }
+  
+  .english {
+    margin-left:18px;
+    margin-top: 100px;
+    margin-right: 30px;
+    
+  }
+  .private {
+    margin-left: 100px;
+    margin-right: 109px;
+  
+  }
+  .secure {
+    margin-left: 130px;
+    margin-right: 130px;
+  
+  }
+  .status {
+    margin-left: 135px;
+    margin-right: 135px;
+  }
+  .copywrite {
+    margin-left: 85px;
+    margin-right: 80px;
+  }
+  .facebook {
+    margin-left: 120px;
+    display: block;
+  }
+  .logo-line {
+    display: block;
+    width: 290px;
+    margin-left: 10px;
+  }
+  .logos{
+    margin-left: -110px;
+    text-align: center;
+  }
 }
